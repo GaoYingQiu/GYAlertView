@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+ 
+target ‘GYAlertView’ do
+
+pod 'Masonry' #自动布局
+pod 'pop' #动画
+pod 'TTTAttributedLabel' #富文本
+end

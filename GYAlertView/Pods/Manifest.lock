@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - pop (1.0.12)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Masonry
+  - pop
+  - TTTAttributedLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - pop
+    - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: b70bc36c95cc5aa2369836a4b0b0ab8d54d8a3a2
+
+COCOAPODS: 1.5.3
