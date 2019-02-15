@@ -18,6 +18,9 @@
 		D50807FC2212A7DE00E5ABA2 /* QiuAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50807FA2212A7DE00E5ABA2 /* QiuAlertView.m */; };
 		D50807FF2212A7F500E5ABA2 /* GYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D50807FD2212A7F400E5ABA2 /* GYButton.m */; };
 		D50808022212AE1000E5ABA2 /* GYPopTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D50808012212AE0F00E5ABA2 /* GYPopTool.m */; };
+		D59E0F5522165B3F00C3B50B /* GYUpdateSoftwareAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E0F5322165B3E00C3B50B /* GYUpdateSoftwareAlert.m */; };
+		D59E0F5822165B6100C3B50B /* GYUpdateVersionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E0F5622165B6100C3B50B /* GYUpdateVersionHelper.m */; };
+		D59E0F5B22165B8200C3B50B /* UpdateVersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E0F5922165B8200C3B50B /* UpdateVersionModel.m */; };
 		FA905EEC31C9916D0B7BBC4F /* libPods-GYAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6C77F869CC288D7C7943CA /* libPods-GYAlertView.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,12 @@
 		D50807FE2212A7F500E5ABA2 /* GYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYButton.h; sourceTree = "<group>"; };
 		D50808002212AE0100E5ABA2 /* GYPopTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYPopTool.h; sourceTree = "<group>"; };
 		D50808012212AE0F00E5ABA2 /* GYPopTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYPopTool.m; sourceTree = "<group>"; };
+		D59E0F5322165B3E00C3B50B /* GYUpdateSoftwareAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYUpdateSoftwareAlert.m; sourceTree = "<group>"; };
+		D59E0F5422165B3F00C3B50B /* GYUpdateSoftwareAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYUpdateSoftwareAlert.h; sourceTree = "<group>"; };
+		D59E0F5622165B6100C3B50B /* GYUpdateVersionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYUpdateVersionHelper.m; sourceTree = "<group>"; };
+		D59E0F5722165B6100C3B50B /* GYUpdateVersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYUpdateVersionHelper.h; sourceTree = "<group>"; };
+		D59E0F5922165B8200C3B50B /* UpdateVersionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateVersionModel.m; sourceTree = "<group>"; };
+		D59E0F5A22165B8200C3B50B /* UpdateVersionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateVersionModel.h; sourceTree = "<group>"; };
 		FD6C77F869CC288D7C7943CA /* libPods-GYAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GYAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,8 +147,14 @@
 				D50807C72212A4B200E5ABA2 /* AppDelegate.m */,
 				D50807FB2212A7DE00E5ABA2 /* QiuAlertView.h */,
 				D50807FA2212A7DE00E5ABA2 /* QiuAlertView.m */,
+				D59E0F5722165B6100C3B50B /* GYUpdateVersionHelper.h */,
+				D59E0F5622165B6100C3B50B /* GYUpdateVersionHelper.m */,
+				D59E0F5422165B3F00C3B50B /* GYUpdateSoftwareAlert.h */,
+				D59E0F5322165B3E00C3B50B /* GYUpdateSoftwareAlert.m */,
 				D50808002212AE0100E5ABA2 /* GYPopTool.h */,
 				D50808012212AE0F00E5ABA2 /* GYPopTool.m */,
+				D59E0F5A22165B8200C3B50B /* UpdateVersionModel.h */,
+				D59E0F5922165B8200C3B50B /* UpdateVersionModel.m */,
 				D50807FE2212A7F500E5ABA2 /* GYButton.h */,
 				D50807FD2212A7F400E5ABA2 /* GYButton.m */,
 				D50807C92212A4B200E5ABA2 /* ViewController.h */,
@@ -324,10 +339,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50807CB2212A4B200E5ABA2 /* ViewController.m in Sources */,
+				D59E0F5822165B6100C3B50B /* GYUpdateVersionHelper.m in Sources */,
 				D50807D62212A4B400E5ABA2 /* main.m in Sources */,
+				D59E0F5B22165B8200C3B50B /* UpdateVersionModel.m in Sources */,
 				D50807C82212A4B200E5ABA2 /* AppDelegate.m in Sources */,
 				D50807FC2212A7DE00E5ABA2 /* QiuAlertView.m in Sources */,
 				D50808022212AE1000E5ABA2 /* GYPopTool.m in Sources */,
+				D59E0F5522165B3F00C3B50B /* GYUpdateSoftwareAlert.m in Sources */,
 				D50807FF2212A7F500E5ABA2 /* GYButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
